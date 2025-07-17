@@ -48,11 +48,7 @@ const NavigationBarSection = () => {
         </NavigationMenu>
 
         {/* Green Credits Button */}
-<<<<<<< HEAD
-        <Button className="h-[60px] w-[210px] bg-gradient-to-r from-[#1e4632] to-[#3a7d5d] rounded-full border-none [font-family:'Work_Sans-Medium',Helvetica] font-semibold text-white text-2xl tracking-[-0.60px] shadow-lg transition-all duration-300 hover:from-[#1e4632] hover:to-[#17603e] hover:scale-105">
-=======
         <Button className="h-[72px] w-[225px] bg-gradient-to-r from-[#46BEA9] to-[#147866] hover:from-[#147866] hover:to-[#46BEA9] rounded-[12px] border-0 [font-family:'Work_Sans-Medium',Helvetica] font-medium text-white text-3xl tracking-[-0.60px] shadow-[0px_8px_16px_rgba(70,190,169,0.3)] hover:shadow-[0px_12px_24px_rgba(70,190,169,0.4)] transition-all duration-300 transform hover:scale-105">
->>>>>>> 6ff5217499f437e3e9e6bf6f9deec7e0c48ff887
           Green Credits
         </Button>
       </div>
