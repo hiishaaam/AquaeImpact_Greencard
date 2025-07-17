@@ -17,11 +17,21 @@ export default function FooterSection() {
       <div className="container mx-auto max-w-[1246px] flex flex-col md:flex-row justify-between gap-12">
         {/* Logo and Email Section */}
         <div className="flex flex-col">
-          <h2 className="font-medium text-white text-[85px] leading-[75px] tracking-[-1.45px] font-['Work_Sans-Medium',Helvetica]">
-            logo
-          </h2>
+          <div className="flex items-center gap-4">
+            <img 
+              src="/AQUAE.Impact-LOGO-REC-removebg-preview (2).svg" 
+              alt="AQUAE.Impact Logo" 
+              className="w-16 h-16"
+            />
+            <h2 className="font-medium text-white text-[60px] leading-[75px] tracking-[-1.45px] font-['Work_Sans-Medium',Helvetica]">
+              AQUAE.Impact
+            </h2>
+          </div>
           <span className="text-[35px] text-white tracking-[-0.24px] font-medium font-['Work_Sans-Medium',Helvetica]">
-            EMAIL
+            hello@aquaeimpact.com
+          </span>
+          <span className="text-[20px] text-white tracking-[-0.24px] font-medium font-['Work_Sans-Medium',Helvetica] mt-4">
+            © 2025 AQUAE Impact. All rights reserved.
           </span>
         </div>
 

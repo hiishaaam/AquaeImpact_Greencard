@@ -20,8 +20,15 @@ const NavigationBarSection = () => {
     <header className="w-full h-[100px] bg-white bg-blend-hard-light flex items-center px-12">
       <div className="w-full flex items-center justify-between">
         {/* Logo */}
-        <div className="[font-family:'Work_Sans-Medium',Helvetica] font-medium text-[#147866] text-[45px] tracking-[-0.90px] leading-[75px]">
-          Logo
+        <div className="flex items-center gap-3">
+          <img 
+            src="/AQUAE.Impact-LOGO-REC-removebg-preview (2).svg" 
+            alt="AQUAE.Impact Logo" 
+            className="w-12 h-12"
+          />
+          <span className="[font-family:'Work_Sans-Medium',Helvetica] font-medium text-[#147866] text-[45px] tracking-[-0.90px] leading-[75px]">
+            AQUAE.Impact
+          </span>
         </div>
 
         {/* Navigation Menu */}
@@ -41,7 +48,7 @@ const NavigationBarSection = () => {
         </NavigationMenu>
 
         {/* Green Credits Button */}
-        <Button className="h-[72px] w-[225px] bg-[#808884] rounded-[9px] border border-solid border-[#595858] [font-family:'Work_Sans-Medium',Helvetica] font-medium text-white text-3xl tracking-[-0.60px] shadow-[0px_4px_4px_#00000040]">
+        <Button className="h-[72px] w-[225px] bg-gradient-to-r from-[#46BEA9] to-[#147866] hover:from-[#147866] hover:to-[#46BEA9] rounded-[12px] border-0 [font-family:'Work_Sans-Medium',Helvetica] font-medium text-white text-3xl tracking-[-0.60px] shadow-[0px_8px_16px_rgba(70,190,169,0.3)] hover:shadow-[0px_12px_24px_rgba(70,190,169,0.4)] transition-all duration-300 transform hover:scale-105">
           Green Credits
         </Button>
       </div>
