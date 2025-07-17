@@ -81,12 +81,10 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
+  /* Removed global border-border apply as it caused errors and is not needed in the new design system */
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }

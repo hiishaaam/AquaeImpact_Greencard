@@ -17,7 +17,7 @@ const NavigationBarSection = () => {
   ];
 
   return (
-    <header className="w-full h-[100px] bg-white bg-blend-hard-light flex items-center px-12">
+    <header className="w-full h-[100px] bg-[#e8f5f2] bg-blend-hard-light flex items-center px-12">
       <div className="w-full flex items-center justify-between">
         {/* Logo */}
         <div className="[font-family:'Work_Sans-Medium',Helvetica] font-medium text-[#147866] text-[45px] tracking-[-0.90px] leading-[75px]">
@@ -41,7 +41,7 @@ const NavigationBarSection = () => {
         </NavigationMenu>
 
         {/* Green Credits Button */}
-        <Button className="h-[72px] w-[225px] bg-[#808884] rounded-[9px] border border-solid border-[#595858] [font-family:'Work_Sans-Medium',Helvetica] font-medium text-white text-3xl tracking-[-0.60px] shadow-[0px_4px_4px_#00000040]">
+        <Button className="h-[60px] w-[210px] bg-gradient-to-r from-[#1e4632] to-[#3a7d5d] rounded-full border-none [font-family:'Work_Sans-Medium',Helvetica] font-semibold text-white text-2xl tracking-[-0.60px] shadow-lg transition-all duration-300 hover:from-[#1e4632] hover:to-[#17603e] hover:scale-105">
           Green Credits
         </Button>
       </div>

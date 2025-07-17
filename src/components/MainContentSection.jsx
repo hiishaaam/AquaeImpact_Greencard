@@ -22,7 +22,7 @@ export default function MainContentSection() {
   ];
 
   return (
-    <section className="w-full bg-white relative mt-8">
+    <section className="w-full bg-white relative">
       <div className="relative w-full">
         {/* Hero section with background image */}
         <div
@@ -33,14 +33,14 @@ export default function MainContentSection() {
           }}
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-12">
-            <h1 className="font-['Wittgenstein-SemiBold',Helvetica] font-semibold text-[#97edd2] text-[64px] mb-4">
-              GREEN CREDITS
-            </h1>
-            <p className="font-['Inter-Regular',Helvetica] text-white text-[25px] max-w-[543px]">
-              The ALCI system ensures that
-              <br />
-              every issued credit is backed by insurance.
-            </p>
+            <div className="bg-[rgba(24,54,44,0.65)] rounded-2xl p-10 shadow-2xl backdrop-blur-md flex flex-col items-center">
+              <h1 className="font-sans font-extrabold text-[#97edd2] text-[72px] mb-4 drop-shadow-lg tracking-tight uppercase">
+                GREEN CREDITS
+              </h1>
+              <p className="font-sans text-white text-[28px] max-w-[600px] drop-shadow-md mt-2">
+                The ALCI system ensures that<br />every issued credit is backed by insurance.
+              </p>
+            </div>
           </div>
         </div>
 
